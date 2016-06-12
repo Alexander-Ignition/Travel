@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_project: Travel.xcodeproj
+xcode_scheme: Travel
+
+script:
+  - xcodebuild -version
+  - xcodebuild -showsdks
